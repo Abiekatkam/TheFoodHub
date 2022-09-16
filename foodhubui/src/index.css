@@ -1,0 +1,58 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Roots */
+:root {
+  --ls: "Lora", serif;
+  --pd: "Playfair Display", serif;
+  --pp: "Poppins", sans-serif;
+
+  /* colors */
+  --light-white: #edf2f4;
+  --blue: #273e47;
+  --green: #2ccf6d;
+  --lightbs: #a8dadc;
+  --yellows: #ffb703;
+  --oranges: #fcbf49;
+  /* --grey: #354f52;
+  --lightgreys: #52796f; */
+}
+
+/* Uni Code */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #373737;
+  font-size: 1rem;
+  /* position: relative; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+.head3 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: var(--pd);
+  margin-bottom: 1rem;
+}
