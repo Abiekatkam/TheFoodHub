@@ -15,7 +15,8 @@ function MealTypeVegPage() {
   const fetchData = async () => {
     try {
       const response = await axios(`${mealRouteName}Veg`);
-      setData(response.data);
+      setData(response.data.mealName);
+      console.log(response.data.mealName);
     } catch (error) {
       console.log(error.response);
     }

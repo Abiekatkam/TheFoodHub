@@ -1,0 +1,302 @@
+[
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.0D8GvQS6CFmRAX-2wj9U1AHaE7&pid=Api&P=0",
+    "name": "Chicken Crispy Leg Pieces",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.qVZrlXhlMHg9CmwEgYiylAHaE8&pid=Api&P=0",
+    "name": "Chicken Tandoori Leg Pieces",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.m44Kcm-MT1fSR5KiVABgrwHaLH&pid=Api&P=0",
+    "name": "Chicken Tandoori Nugggets",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.R8FjAlonhFRofvpFoPuDIAHaHa&pid=Api&P=0",
+    "name": "Butter Chicken",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.UwH5hRA2rfQnP-kCk_Ny-wHaC9&pid=Api&P=0",
+    "name": "Crispy Chicken",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.hV0GUkU3O3TIyt78sqLo3wHaE8&pid=Api&P=0",
+    "name": "Chicken Nuggets Fried",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.I1nNlPRDMCH5ELG-GvAM9wHaFj&pid=Api&P=0",
+    "name": "Chicken Biryani",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.blB8GfKocKuK0d31FJYPCQHaLG&pid=Api&P=0",
+    "name": "Chicken Soup",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.JUocGi8Ft8ddu4JiHgoEZwHaFj&pid=Api&P=0",
+    "name": "Chicken Breast Fried",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.e4uTIG8SLLXvf9Fj433mXwHaEs&pid=Api&P=0",
+    "name": "Chicken Cripsy Fry",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Chicken",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.0GdTSfr1tFAY1xVoraAX6wHaF6&pid=Api&P=0",
+    "name": "Chicken Leg Tandorri",
+    "content": "Enjoy the most delicious chicken carvy food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.2C6aZOOwTq2hB9kkn6T3oAHaFi&pid=Api&P=0",
+    "name": "Mutton Rasa",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.pHWxTD_lcofWALGF3IQflwHaE8&pid=Api&P=0",
+    "name": "Mutton Paya",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.Bdg0CFTh4sg02Rtg4rORdAHaFj&pid=Api&P=0",
+    "name": "Mutton Gravy Rasa",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.pK3hTwN_FIWMmNhocPG9tgHaHa&pid=Api&P=0",
+    "name": "Mutton Biryani",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.MQzz7NfB_HL9yklaccuenQHaEy&pid=Api&P=0",
+    "name": "Mutton Steaks",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Mutton",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.zXGdFZCxClNZgwgPY4bADQHaEK&pid=Api&P=0",
+    "name": "Mutton Crispy",
+    "content": "Enjoy the most delicious mutton cooked food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.OXHPSyIu92IkohYjWlmYbwHaEc&pid=Api&P=0",
+    "name": "Prawns Fry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.i7_STqk1vRKUywac0y0jEAHaEK&pid=Api&P=0",
+    "name": "Pamplet Fry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.62XiADq2jSHwZ1BWCZrXtQHaEK&pid=Api&P=0",
+    "name": "Bombil Fry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.JDeDqrEhe-G0k17AnbcRCQHaE8&pid=Api&P=0",
+    "name": "Fish curry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.zutXQ7VyMJLsdNR5gdrRogHaEK&pid=Api&P=0",
+    "name": "Common Fish Fry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.gM9eSyvdtxmGFsdY9PmSAgHaE8&pid=Api&P=0",
+    "name": "Squid Fish Fry",
+    "content": "Enjoy the most delicious sea food."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.m2VjpzrKi05qXIKUiigE_wHaEn&pid=Api&P=0",
+    "name": "Hamburger",
+    "content": "Enjoy the most pressure time with snacks."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.C72jzR5omQ5APHF832_-uQDMEy&pid=Api&P=0",
+    "name": "Ice-cream",
+    "content": "Enjoy the most pressure time with snacks."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.H7MHGX9bx3kJrj0up8dZmwHaE8&pid=Api&P=0",
+    "name": "Donuts",
+    "content": "Enjoy the most pressure time with snacks."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.Szu31Mv4IdAqtL9g31Lb5QHaFj&pid=Api&P=0",
+    "name": "Cookies",
+    "content": "Enjoy the most pressure time with snacks."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.NOXqPFeIUnDNDWeaGsagMwHaE6&pid=Api&P=0",
+    "name": "Chocolates",
+    "content": "Enjoy the most pressure time with snacks."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.WHCuHar_0GG6R0YfCSGgYAHaHY&pid=Api&P=0",
+    "name": "Avocardo Salad",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.GT_ONkousfbMAYf37i0sqwHaFj&pid=Api&P=0",
+    "name": "North Uttapam",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.iKLYrAwfGwlIXqkKqNvB1wHaE5&pid=Api&P=0",
+    "name": "Paneer Tikka",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.ID8EZ0MS8UA5TI5ZvT5jiwHaFj&pid=Api&P=0",
+    "name": "Paneer Chilli",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.yVuLA81NQr_CKo4JhFSG9AHaFj&pid=Api&P=0",
+    "name": "Paneer Butter Masala",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.B3CjOTj5lZLJ6uob-XW4KAHaGA&pid=Api&P=0",
+    "name": "Chole Bhature",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.fHGk5sxurcYsPdqqZc7ARgHaEK&pid=Api&P=0",
+    "name": "Puri Bhaji",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.JSYs9I-0u_nvGpq_TtJ8GgHaFj&pid=Api&P=0",
+    "name": "Chana Masala",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.jCTttlKz49sjojN3Igxj-QHaE8&pid=Api&P=0",
+    "name": "South Upma",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.ZZRdi0Qoko10w99cv0c5XgHaFj&pid=Api&P=0",
+    "name": "Veg Fired Rice",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.cpUnJGnPjgKaHxDVVKjejwHaE7&pid=Api&P=0",
+    "name": "Veg Oat Rice",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Veg",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.HF0TgnJvlgeOAFYU5UVluAHaHa&pid=Api&P=0",
+    "name": "Cashew Rice",
+    "content": "Enjoy the veggies meals."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.8UTFF_Wgt7yTRXL2OOJgOwHaEK&pid=Api&P=0",
+    "name": "Momos",
+    "content": "Enjoy the snacks meals."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.KBBF7LJVcWAnERY5U10q0gHaHa&pid=Api&P=0",
+    "name": "Pizza",
+    "content": "Enjoy the snacks meals."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.8040SDAmeD8DEgYtmmZOQgHaE8&pid=Api&P=0",
+    "name": "Sandwich",
+    "content": "Enjoy the snacks meals."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.4JqbNsGHndsnPmJX_I2nWwHaHa&pid=Api&P=0",
+    "name": "Cakes",
+    "content": "Enjoy the snacks meals."
+  },
+  {
+    "mealType": "Snacks",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.qPjyfHXE2kWzXOetygf0rgHaE7&pid=Api&P=0",
+    "name": "Cup-cakes",
+    "content": "Enjoy the snacks meals."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.SJwI9EhGlMz1ntqDJGPbRQHaE8&pid=Api&P=0",
+    "name": "Sushi",
+    "content": "Enjoy the Seafood meals."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.p4kggD4s3AXk8hJ8zAl6jwHaFj&pid=Api&P=0",
+    "name": "Squid Curry",
+    "content": "Enjoy the Seafood meals."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.5hJgAIZhnkNm8qXbqd9UBwHaGq&pid=Api&P=0",
+    "name": "Fish Thali",
+    "content": "Enjoy the Seafood meals."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.cIQV-7U6PhyosY33Yu_caQHaE8&pid=Api&P=0",
+    "name": "Lobster Fry",
+    "content": "Enjoy the Seafood meals."
+  },
+  {
+    "mealType": "Seafood",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.9Dy5Etn2kjwEhLOHpFbIswHaE7&pid=Api&P=0",
+    "name": "Crab Fry",
+    "content": "Enjoy the Seafood meals."
+  }
+]

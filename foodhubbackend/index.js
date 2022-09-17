@@ -1,19 +1,20 @@
-const express = require("express");
-const cors = require("cors");
-const mongoose = require("mongoose");
-const logger = require("morgan");
-const path = require("path");
+import express, { json, urlencoded } from "express";
+import cors from "cors";
+import mongoose from "mongoose";
+import logger from "morgan";
 
-const titleRoute = require("./routes/title");
-const authRoutes = require("./routes/auth");
-const restaurantRoutes = require("./routes/restaurant");
-const mealsRoutes = require("./routes/meals").default;
+import titleRoute from "./routes/title.js";
+import authRoutes from "./routes/auth.js";
+import restaurantRoutes from "./routes/restaurant.js";
+import mealsRoutes from "./routes/meals.js";
 
 const app = express();
-require("dotenv").config();
+
+const MONGO_URL =
+  "mongodb+srv://AbieKatkam:9117abie@thefoodhubcluster.caabn4k.mongodb.net/foodhubDB";
 
 mongoose
-  .connect(process.env.MONGO_URL, {
+  .connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -24,19 +25,18 @@ mongoose
     console.log(err.message);
   });
 
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "jade");
+// app.set("views", join(__dirname, "views"));
+// app.set("view engine", "jade");
 
 app.use(logger("dev"));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(json());
+app.use(urlencoded({ extended: false }));
 
 app.use(
   cors({
     origin: "*",
   })
 );
-app.use(express.static(path.join(__dirname, "public")));
 
 // Routing configures
 app.use("/", titleRoute);
@@ -44,15 +44,14 @@ app.use("/api/auth", authRoutes);
 app.use("/restaurant", restaurantRoutes);
 app.use("/meals", mealsRoutes);
 
-if (process.env.NODE_ENV === "production") {
-  // Exprees will serve up production assets
-  app.use(express.static(path.join(__dirname, "build")));
+// if (process.env.NODE_ENV === "production") {
+//   // Exprees will serve up production assets
 
-  // Express serve up index.html file if it doesn't recognize route
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "build", "index.html"));
-  });
-}
+//   // Express serve up index.html file if it doesn't recognize route
+//   app.get("*", (req, res) => {
+//     res.sendFile(join(__dirname, "build", "index.html"));
+//   });
+// }
 
 const port = process.env.PORT || 5000;
 

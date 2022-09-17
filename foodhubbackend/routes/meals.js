@@ -5,28 +5,18 @@ import {
   addMeals,
   getMealById,
   getMealByName,
-} from "../controller/mealsController";
+} from "../controller/mealsController.js";
 
 /* GET users listing. */
 
-router.get("/", function (req, res, next) {
-  getMeals(req, res, next);
-});
+router.get("/", getMeals);
 
-router.get("/getMeals", function (req, res, next) {
-  getMeals(req, res, next);
-});
+router.get("/getMeals", getMeals);
 
-router.get("/getMealByName", function (req, res, next) {
-  getMealByName(req, res, next);
-});
+router.get("/getMealByName", getMealByName);
 
-router.get("/getMealById/:id", function (req, res, next) {
-  getMealById(req, res, next);
-});
+router.get("/getMealById/:id", getMealById);
 
-router.post("/addMeal", function (req, res, next) {
-  addMeals(req, res, next);
-});
+router.post("/addMeal", addMeals);
 
 export default router;

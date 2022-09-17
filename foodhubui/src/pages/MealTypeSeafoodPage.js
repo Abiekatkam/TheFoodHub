@@ -15,7 +15,7 @@ function MealTypeSeafoodPage() {
   const fetchData = async () => {
     try {
       const response = await axios(`${mealRouteName}Seafood`);
-      setData(response.data);
+      setData(response.data.mealName);
     } catch (error) {
       console.log(error.response);
     }

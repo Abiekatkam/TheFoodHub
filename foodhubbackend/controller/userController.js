@@ -1,14 +1,14 @@
-const User = require("../models/userModel");
-const bcrypt = require("bcrypt");
+import User from "../models/userModel.js";
+import bcrypt from "bcrypt";
 
-module.exports.getAllUsers = async (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
   await User.find((err, response) => {
     if (err) res.send("Exception Occured");
-    else res.send(response);
+    else res.json({ status: true, response });
   });
 };
 
-module.exports.login = async (req, res, next) => {
+export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     const user = await User.findOne({ email });
@@ -24,7 +24,7 @@ module.exports.login = async (req, res, next) => {
   }
 };
 
-module.exports.register = async (req, res, next) => {
+export const register = async (req, res, next) => {
   try {
     const { username, email, password } = req.body;
     const usernameCheck = await User.findOne({ username });

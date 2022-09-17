@@ -1,31 +1,21 @@
-const express = require("express");
-const router = express.Router();
-const {
+import { Router } from "express";
+const router = Router();
+import {
   getRestaurants,
   getRestaurantById,
   getRestaurantByName,
   addRestaurant,
-} = require("../controller/restaurantController");
+} from "../controller/restaurantController.js";
 
 /* GET users listing. */
-router.get("/", function (req, res, next) {
-  getRestaurants(req, res, next);
-});
+router.get("/", getRestaurants);
 
-router.get("/getRestaurants", function (req, res, next) {
-  getRestaurants(req, res, next);
-});
+router.get("/getRestaurants", getRestaurants);
 
-router.get("/getRestaurantByName", function (req, res, next) {
-  getRestaurantByName(req, res, next);
-});
+router.get("/getRestaurantByName", getRestaurantByName);
 
-router.get("/getRestaurantById/:id", function (req, res, next) {
-  getRestaurantById(req, res, next);
-});
+router.get("/getRestaurantById/:id", getRestaurantById);
 
-router.post("/addRestaurant", function (req, res, next) {
-  addRestaurant(req, res, next);
-});
+router.post("/addRestaurant", addRestaurant);
 
-module.exports = router;
+export default router;

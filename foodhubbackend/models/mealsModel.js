@@ -1,12 +1,12 @@
-var mongoose = require("mongoose");
+import { Schema, model } from "mongoose";
 
-const mealsSchema = mongoose.Schema([
+const mealsSchema = Schema([
   {
-    meal_type: String,
+    mealType: String,
     image: String,
     name: String,
     content: String,
   },
 ]);
 
-module.exports = mongoose.model("meals", mealsSchema);
+export default model("meals", mealsSchema);
