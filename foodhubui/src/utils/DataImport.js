@@ -1,5 +1,5 @@
-export const host = "http://localhost:5000";
-// export const host = "https://largeprojectfoodhub.herokuapp.com";
+// export const host = "http://localhost:5000";
+export const host = "https://foodhubzone.herokuapp.com/";
 
 // City restaurant route
 export const cityRoute = `${host}/restaurant`;
