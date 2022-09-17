@@ -1,4 +1,5 @@
-import express, { json, urlencoded } from "express";
+import express from "express";
+import bodyParser from "body-parser";
 import cors from "cors";
 import mongoose from "mongoose";
 import logger from "morgan";
@@ -10,11 +11,13 @@ import mealsRoutes from "./routes/meals.js";
 
 const app = express();
 
-const MONGO_URL =
-  "mongodb+srv://AbieKatkam:9117abie@thefoodhubcluster.caabn4k.mongodb.net/foodhubDB";
+// const MONGO_URL =
+//   "mongodb+srv://AbieKatkam:9117abie@thefoodhubcluster.caabn4k.mongodb.net/foodhubDB";
+
+//   const zyx = "mongodb+srv://AbieKatkam:9117abie@foodmaniaclusters.imjlhg9.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose
-  .connect(MONGO_URL, {
+  .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -29,8 +32,8 @@ mongoose
 // app.set("view engine", "jade");
 
 app.use(logger("dev"));
-app.use(json());
-app.use(urlencoded({ extended: false }));
+app.use(bodyParser.json({ limit: "30mb", extended: true }));
+app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 app.use(
   cors({
