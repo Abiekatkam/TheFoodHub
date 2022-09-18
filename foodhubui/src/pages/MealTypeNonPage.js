@@ -15,7 +15,7 @@ function MealTypeNonPage() {
   const fetchData = async () => {
     try {
       const response = await axios(`${mealRouteName}Chicken&mealType=Mutton`);
-      setData(response.data.mealName);
+      setData(response.data);
     } catch (error) {
       console.log(error.response);
     }

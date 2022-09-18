@@ -39,7 +39,7 @@ function MealsDetailPage() {
               <img
                 src={dataVar.image}
                 className="images d-block mx-lg-auto img-fluid"
-                alt="Bootstrap Themes"
+                alt="Images"
                 loading="lazy"
               />
             </div>

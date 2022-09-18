@@ -15,7 +15,7 @@ function MealTypeSnacksPage() {
   const fetchData = async () => {
     try {
       const response = await axios(`${mealRouteName}Snacks`);
-      setData(response.data.mealName);
+      setData(response.data);
     } catch (error) {
       console.log(error.response);
     }

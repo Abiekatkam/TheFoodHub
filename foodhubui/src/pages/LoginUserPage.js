@@ -53,7 +53,7 @@ function LoginUserPage() {
           JSON.stringify(data.user)
         );
         toast.success("Login success", toastOptions);
-        navigate("/data");
+        navigate("/");
       }
     }
   };

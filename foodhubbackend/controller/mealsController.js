@@ -17,7 +17,7 @@ export const getMeals = async (req, res, next) => {
 export const getMealByName = async (req, res, next) => {
   try {
     const mealName = await mealsSchema.find({ mealType: req.query.mealType });
-    res.status(200).json({ mealName });
+    res.status(200).json(mealName);
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
@@ -25,8 +25,8 @@ export const getMealByName = async (req, res, next) => {
 
 export const getMealById = async (req, res, next) => {
   try {
-    const mealsID = mealsSchema.findById(req.params.id);
-    res.status(200).json({ mealsID });
+    const mealsID = await mealsSchema.findById(req.params.id);
+    res.status(200).json(mealsID);
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
